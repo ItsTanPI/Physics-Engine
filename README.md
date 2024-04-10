@@ -1,5 +1,5 @@
 A Physics Engine made with C++ and OpenGL. This project allows simulating basic physics. It enables users to easily apply physics principles.
-this Project helps to create simple games such as Flappy Bird.
+You can use this SourceCodes to create simple games such as Flappy Bird. :)
 
 OpenGL Libraries used: GLFW and GLEW; no other external libraries have been used.
 
