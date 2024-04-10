@@ -3,7 +3,6 @@
 #include<iostream>
 #include<math.h>
 
-#define PI 3.14159265f
 
 struct Vector2
 {
@@ -99,7 +98,7 @@ struct Vector2
 void Polygon(int sides, float Radius, float* Vertices, int* Indices)
 {
     float angle;
-    angle = (360.0f / sides) * PI/180.0f;
+    angle = (360.0f / sides) * 3.14159265f /180.0f;
     float IndexAngle = angle;
     
     int Index = (sides * 2) + 2;
