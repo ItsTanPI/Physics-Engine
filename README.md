@@ -26,3 +26,8 @@ To run this project, ensure you have the following:
 - **OpenGL**: The project is built using OpenGL, with the following libraries:
   - **GLFW**: For handling window creation and input.
   - **GLEW**: For managing OpenGL extensions.
+
+
+## Contributing
+
+Feel free to fork the repository, create a branch, and submit pull requests. Contributions are welcome!
