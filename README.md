@@ -1,6 +1,28 @@
-A Physics Engine made with C++ and OpenGL. This project allows simulating basic physics. It enables users to easily apply physics principles.
-You can use this SourceCodes to create simple games such as Flappy Bird. :)
+# Physics Engine
 
-OpenGL Libraries used: GLFW and GLEW; no other external libraries have been used.
+A **Physics Engine** developed using C++ and OpenGL, designed to simulate basic physics. This engine allows users to apply fundamental physics principles, making it suitable for creating simple physics-based games like Flappy Bird.
 
-Note: To achieve the intended results perfectly, the device's Refresh rate should be locked at 144Hz using external tools like RivaTuner.
+## Features
+
+- **Verlet Integration**: Efficiently simulates physics by using the Verlet integration method.
+- **Rendering**:
+  - **Line Renderer**: Renders lines for visual representation of joints or other elements.
+  - **Point Renderer**: Renders points, useful for visualizing specific coordinates or particles.
+- **Joints**:
+  - **Spring Joint**: Simulates spring-like connections between objects.
+  - **Distance Joint**: Maintains a fixed distance between connected objects.
+- **Collision Detection**: Implements basic collision handling between objects.
+- **Movement Control**:
+  - **Jump Movement**: Triggered by the `Space` key.
+  - **Directional Control**: Use the `Up Arrow` key to control the main square for jumping.
+
+## Getting Started
+
+### Prerequisites
+
+To run this project, ensure you have the following:
+
+- **C++ Compiler**: Supports C++11 or higher.
+- **OpenGL**: The project is built using OpenGL, with the following libraries:
+  - **GLFW**: For handling window creation and input.
+  - **GLEW**: For managing OpenGL extensions.
