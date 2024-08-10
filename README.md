@@ -2,7 +2,7 @@
 
 A **Physics Engine** developed using C++ and OpenGL, designed to simulate basic physics. This engine allows users to apply fundamental physics principles, making it suitable for creating simple physics-based games like Flappy Bird.
 
-https://github.com/user-attachments/assets/df208764-1ec6-4634-9568-2af67023b9f2
+https://github.com/user-attachments/assets/03804e5a-64b5-462a-bfda-b741ada709b4
 
 ## Features
 
